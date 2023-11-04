@@ -35,7 +35,7 @@ const Contacts = () => {
           <FaSquareXTwitter size={"30px"} />: /@udatya_deb
         </span>
       </div>
-      <div className="email-details">
+      <div className="social-details">
         <span style={{ display: "flex" }}>
           <MdEmail size={"30px"} />:<span>udatya.developer@gmail.com</span>
         </span>

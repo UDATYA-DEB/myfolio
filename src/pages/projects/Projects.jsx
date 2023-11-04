@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projects.css";
 import { webdevdata, cloudcompdata, mldata } from "../../data";
 
 import ProjectCards from "../../components/project-cards/ProjectCards";
+import { useMyContext } from "../../MyContext";
 
 const Projects = () => {
+  const myContext = useMyContext();
+  // useEffect(() => {
+  //   myContext.setScrollProject(document.getElementById("projectpoint"));
+  // }, []);
   return (
-    <div className="project-container">
+    <div className="project-container" id="projectpoint">
       <header>Web Dev Projects</header>
       <div className="projects-grid-container">
         {webdevdata.map((item) => {

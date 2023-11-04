@@ -7,8 +7,9 @@
   height: 100%;
   /* background-color: aqua; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* padding: 50px 0; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .social-details {
@@ -16,8 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: self-start;
-  justify-content: space-between;
-  height: 50%;
+  justify-content: space-evenly;
+  height: 100%;
   font-size: 20px;
   border-right: 1px solid grey;
   padding-left: var(--bottom-padding);

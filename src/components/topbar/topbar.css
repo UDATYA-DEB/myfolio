@@ -49,3 +49,26 @@
 .resume-btn:hover {
   background-color: rgb(27, 27, 27);
 }
+
+.menu-items {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  visibility: hidden;
+  border: none;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50px;
+  transform: translateY(-150%);
+  position: absolute;
+}
+
+.menu-items:hover .circle {
+  visibility: visible;
+}

@@ -29,10 +29,10 @@ const ProjectCards = ({
           style={{
             position: "absolute",
             padding: "20px",
-            width: "150px",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
+            height: "8%",
             // backgroundColor: "blue",
           }}
         >
@@ -91,10 +91,20 @@ const ProjectCards = ({
               className="btn-tooltip"
               onClick={() => window.open(github, "_blank")}
             >
-              <span className="github" style={{ position: "absolute" }}>
+              <span
+                className="github"
+                style={{
+                  position: "absolute",
+                  color: "black",
+                  fontWeight: "500",
+                }}
+              >
                 GitHub Repository
               </span>
-              <FaSquareGithub size={"30px"} style={{ cursor: "pointer" }} />
+              <FaSquareGithub
+                size={"30px"}
+                style={{ cursor: "pointer", color: "black" }}
+              />
             </div>
           )}
           {deployed && (
@@ -102,12 +112,19 @@ const ProjectCards = ({
               className="btn-tooltip"
               onClick={() => window.open(deployed, "_blank")}
             >
-              <span className="github" style={{ position: "absolute" }}>
+              <span
+                className="github"
+                style={{
+                  position: "absolute",
+                  color: "black",
+                  fontWeight: "500",
+                }}
+              >
                 Project Deployed
               </span>
               <BsArrowUpRightSquareFill
                 size={"25px"}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", color: "black" }}
               />
             </div>
           )}
