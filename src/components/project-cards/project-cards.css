@@ -1,0 +1,107 @@
+.project-cards-container {
+  /* height: 100px; */
+  /* max-width: 100px; */
+  /* max-width: 200px; */
+  /* max-height: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(184, 0, 0);
+  flex-direction: column;
+  border-radius: 10px;
+  align-self: center;
+  color: black;
+}
+
+.title-style {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.card-templete {
+  /* flex: 0; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: aliceblue;
+  /* flex-direction: column; */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* height: 200px;
+  width: 200px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.expand {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  /* background-color: brown; */
+  align-self: flex-end;
+  cursor: pointer;
+  /* width: 100%;
+  display: flex;
+  background-color: aliceblue;
+  align-self: flex-end; */
+}
+
+.card-info-container {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.desc {
+  padding-left: 20px;
+  /* color: white; */
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.btn-tooltip {
+  position: relative;
+}
+
+.github {
+  visibility: hidden;
+  background-color: aliceblue;
+  transform: translateY(-10%) translateX(55%);
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.github::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent aliceblue transparent transparent;
+}
+
+.btn-tooltip:hover .github {
+  visibility: visible;
+}
+
+.status-style {
+  color: white;
+  border-radius: 5px;
+  padding: 0px 5px;
+  padding-bottom: 5px;
+}

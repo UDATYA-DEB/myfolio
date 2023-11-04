@@ -1,0 +1,27 @@
+.project-container {
+  width: 100vw;
+  /* min-height: 50px; */
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.project-container > header {
+  padding-top: 50px;
+  text-align: start;
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px 50px;
+  padding: 0px 100px;
+  padding-top: 50px;
+  /* background-color: darkcyan; */
+}

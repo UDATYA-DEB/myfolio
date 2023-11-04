@@ -1,0 +1,51 @@
+.topbar-container {
+  min-height: 70px;
+  width: 100vw;
+  background-color: rgba(184, 0, 0, 0.726);
+  display: flex;
+  backdrop-filter: blur(8px);
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo-container {
+  flex: 1;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.menu-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resume-btn-container {
+  flex: 1;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.resume-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  /* width: 100px; */
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Quicksand";
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  font-weight: 500;
+}
+
+.resume-btn:hover {
+  background-color: rgb(27, 27, 27);
+}
