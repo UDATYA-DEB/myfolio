@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(184, 0, 0);
+  background-color: rgba(184, 0, 0, 0.466);
   flex-direction: column;
   border-radius: 10px;
   align-self: center;

@@ -6,6 +6,7 @@ export const useMyContext = () => {
   useContext(Context);
 };
 export const MyContextProvider = (props) => {
+
   //   const [scrollProject, setScrollProject] = useState();
   //   const [scrollContact, setScrollContact] = useState();
   //   const [scrollAboutMe, setScrollAboutMe] = useState();

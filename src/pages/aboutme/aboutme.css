@@ -33,7 +33,6 @@ p {
   /* background-color: var(--aboutme-color); */
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border-right: 1px dashed black;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -51,6 +50,6 @@ p {
 
 .msg {
   font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
+  font-family: "Quicksand";
+  font-weight: 400;
 }

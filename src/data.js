@@ -65,7 +65,8 @@ export const aboutmeMsg =
   "I'm Udatya Deb, a fourth-year student at Netaji Subhash Engineering College, poised to graduate in 2024. Proficient in Java, JavaScript, HTML, CSS, Node.js, and Python, I've honed my programming skills through hands-on projects. I'm eager to apply my knowledge and contribute to cutting-edge tech solutions.";
 
 export const resume =
-  "https://drive.google.com/file/d/1-pazKGkyUyfN-VqsFyiLpi6yXFI7jU9_/view?usp=sharing";
+  // "https://drive.google.com/file/d/1-pazKGkyUyfN-VqsFyiLpi6yXFI7jU9_/view?usp=sharing";
+  "https://drive.google.com/file/d/1w7sVB5txS2NZOgrZRIKzkaD7sVyR2slw/view?usp=sharing";
 
 export const socialData = {
   mygithub: "https://github.com/UDATYA-DEB",
