@@ -103,7 +103,7 @@ const ProjectCards = ({
               </span>
               <FaSquareGithub
                 size={"30px"}
-                style={{ cursor: "pointer", color: "black" }}
+                style={{ cursor: "pointer", color: "#6648ba" }}
               />
             </div>
           )}
@@ -124,7 +124,7 @@ const ProjectCards = ({
               </span>
               <BsArrowUpRightSquareFill
                 size={"25px"}
-                style={{ cursor: "pointer", color: "black" }}
+                style={{ cursor: "pointer", color: "#307069" }}
               />
             </div>
           )}
