@@ -4,7 +4,7 @@ import Topbar from "./components/topbar/Topbar";
 import AboutMe from "./pages/aboutme/AboutMe";
 import Projects from "./pages/projects/Projects";
 import Bottombar from "./components/bottombar/Bottombar";
-import backImg from "./files/2064639.png"
+import backImg from "./files/2064639.webp"
 import { useEffect, useState } from "react";
 
 function App() {
