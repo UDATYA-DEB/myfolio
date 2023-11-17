@@ -16,7 +16,7 @@ const Contacts = () => {
             window.open(socialData.mygithub, "_blank");
           }}
         >
-          <FaSquareGithub size={"30px"} />: /UDATYA-DEB
+          <FaSquareGithub size={"30px"} /> /UDATYA-DEB
         </span>
         <span
           className="socials"
@@ -24,7 +24,7 @@ const Contacts = () => {
             window.open(socialData.mylinkedin, "_blank");
           }}
         >
-          <BsLinkedin size={"30px"} />: /udatya-deb
+          <BsLinkedin size={"30px"} /> /udatya-deb
         </span>
         <span
           className="socials"
@@ -32,19 +32,19 @@ const Contacts = () => {
             window.open(socialData.myx, "_blank");
           }}
         >
-          <FaSquareXTwitter size={"30px"} />: /@udatya_deb
+          <FaSquareXTwitter size={"30px"} /> /@udatya_deb
         </span>
       </div>
       <div className="social-details">
         <span style={{ display: "flex" }}>
-          <MdEmail size={"30px"} />:<span>udatya.developer@gmail.com</span>
+          <MdEmail size={"30px"} /><span>udatya.developer@gmail.com</span>
         </span>
         <span style={{ display: "flex" }}>
-          <BsTelephoneFill size={"25px"} />:
+          <BsTelephoneFill size={"25px"} />
           <span>+91-7044222356/+91-8282868726</span>
         </span>
         <span style={{ display: "flex" }}>
-          <ImLocation size={"30px"} />:<span>Kolkata, INDIA</span>
+          <ImLocation size={"30px"} /><span>Kolkata, INDIA</span>
         </span>
       </div>
     </div>
